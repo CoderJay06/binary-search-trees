@@ -65,7 +65,7 @@ Let's represent the following numbers: 6, 1, 4, 8 in a binary search tree.
       		  	leftChild: {data: 1,
           		rightChild: {data: 4, rightChild: null, leftChild: null},
 			leftChild: null}
-              }}
+              }
 ```
 If we deconstruct the above tree, we see that the root node is the first object, which has a pointer to a leftChild of a node with data 1.  That left child has a pointer to a right child with data 4.  So a diagram of our tree would look like:
 
